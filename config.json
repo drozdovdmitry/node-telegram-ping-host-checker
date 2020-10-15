@@ -1,0 +1,24 @@
+
+{
+    "ping": {
+        "timeout": 3,
+        "extra": ["-i", "2"],
+        "interval": 10000
+    },
+    "telegram": {
+        "token": "0",
+        "users": [
+            0
+        ]
+    },
+    "hosts": [
+        {
+            "address": "8.8.8.8",
+            "name": "Google DNS"
+        },
+        {
+            "address": "172.16.128.25",
+            "name": "Home server"
+        }
+    ]
+}
